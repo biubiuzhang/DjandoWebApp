@@ -8,7 +8,7 @@ const data = {
       price: 120,
       brand: "Nike",
       rating: 4.5,
-      numReview: 10,
+      numReviews: 10,
       description: "high quatlity"
     },
     {
@@ -18,8 +18,8 @@ const data = {
       image: "/images/product-2.jpg",
       price: 110,
       brand: "Nike",
-      rating: 4.5,
-      numReview: 10,
+      rating: 2.3,
+      numReviews: 100,
       description: "high quatlity"
     },
     {
@@ -29,8 +29,8 @@ const data = {
       image: "/images/product-3.jpg",
       price: 150,
       brand: "Nike",
-      rating: 4.5,
-      numReview: 10,
+      rating: 0.7,
+      numReviews: 170,
       description: "high quatlity"
     }
   ]

@@ -98,7 +98,7 @@ img.medium {
   font-size: 2rem;
 }
 /* Rating */
-.rating span{
+.rating span i{
   color: #f0c040;
   margin: 0.1rem;
 }
