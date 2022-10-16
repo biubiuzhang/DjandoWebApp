@@ -22,4 +22,4 @@ def article_list(request):
         if serializer.is_valid():
             serializer.save()
             return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.error, status=400)
+        return JsonResponse(serializer.errors, status=400)
