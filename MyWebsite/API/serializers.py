@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Article
+from .models import Article, People
 
 # To user serializer
 #   1. python manage.py shell
@@ -17,3 +17,9 @@ class ArticleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Article
         fields = ['id', 'title', 'description']
+
+
+class PeopleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = People
+        fields = ['fname', 'lname', 'person_id', 'timestamp']
